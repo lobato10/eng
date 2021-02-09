@@ -1,5 +1,11 @@
-#reajuste de salario
 salario = float(input('Informe o valor do salario atual: '))
-if salario <=1400: novo = salario + (salario*0.15)
-else: novo = salario + (salario*0.10)
-print('Com o aumento, seu salario atual passou a ser = R${}'.format(novo))
+if salario <=1400:
+    novo = salario + (salario*0.15)
+    print('Com o aumento, seu salario atual passou a ser = R${}'.format(novo))
+
+elif salario >2000:
+    novo = (salario)
+    print("Seu salario não será ajustado")
+elif salario >1400<=2000:
+    novo = salario + (salario*0.10)
+    print('Com o aumento, seu salario atual passou a ser = R${}'.format(novo))
