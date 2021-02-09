@@ -1,3 +1,4 @@
+#reajuste de salario
 salario = float(input('Informe o valor do salario atual: '))
 if salario <=1400: novo = salario + (salario*0.15)
 else: novo = salario + (salario*0.10)
